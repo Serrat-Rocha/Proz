@@ -1,0 +1,238 @@
+/* login */
+body{
+  background-color: none;
+}
+.baixo{
+    margin-bottom: 20px;
+}
+.cor{
+  color: #8BB174;
+}
+
+.fundo{
+  background-color: #8BB174;
+  border-color: #8BB174;
+}
+
+.entrar{
+  color: white;
+}
+
+.link{
+  color: black
+}
+
+.sem_borda{
+  border: 0px;
+}
+
+.link:hover{
+    text-decoration: none;
+    background-color: #b5ca8d !important;
+    color: white;
+    border-color: #b5ca8d;
+}
+
+button:hover {
+    background-color: #b5ca8d !important;
+    border-color: #b5ca8d !important;
+    color: white;
+}
+
+.cadastro-acao{
+  background-color: #8BB174 !important;
+  border-color: #8BB174;
+  color: white;
+}
+
+.texto{
+  font-size: 23px;
+}
+
+.margem{
+  margin-right: 50px;
+}
+
+.fundoacao{
+  background-color: #358d58;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.acao{
+  margin-top: 100px;
+  font-size: 40px;
+}
+
+.cornova{
+  color:  #8BB174;
+}
+
+a{
+  text-decoration-line: none;
+  color: #8bb174;
+}
+
+.link1{
+  color: rgb(255, 255, 255);
+}
+ 
+
+.deixa_letras_brancas{
+  color: rgb(206, 206, 206);
+}
+
+/* .arredonda_bordas{
+  border-radius: 20px;
+} */
+
+
+/* index */
+.direita {  
+  margin-left: 300px;
+  width: 50%;
+}
+
+.table {
+  width: 80%; /* Reduzindo a largura da tabela */
+  margin: 0 auto; /* Centralizando a tabela */
+  border-collapse: collapse; /* Para evitar bordas duplicadas */
+}
+
+.table td,
+.table th {
+  border-bottom: 1px solid #dee2e6; /* Bordas só na parte inferior */
+}
+
+.canto {
+  margin-left: 80%;
+}
+
+.fundo{
+background-color: #8BB174;
+border-color: #8BB174;
+}
+
+.entrar{
+color: white;
+}
+
+.entrar:hover{
+  color: white;
+}
+
+.fundo:hover{
+  background-color: #8BB174;
+  border-color: #8BB174;
+}
+
+.margem{
+  margin-right: 17px;
+  margin-left: 10px;
+
+}
+
+.coisar{
+  margin-right: 5%;
+  margin-left: 0px;
+  /* essa classe ela centraliza o "adicionar produto" */
+}
+
+
+
+/* nova_provisao */
+.fundo{
+  background-color: #8BB174;
+  border-color: #8BB174;
+}
+
+.entrar{
+  color: white;
+}
+
+.entrar:hover{
+    color: white;
+}
+
+.fundo:hover{
+    background-color: #8BB174;
+    border-color: #8BB174;
+}
+
+
+/* novo_produto */
+.form-control {
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+.fundo{
+background-color: #8BB174;
+border-color: #8BB174;
+}
+
+.entrar{
+color: white;
+}
+.entrar:hover{
+  color: white;
+}
+
+.fundo:hover{
+  background-color: #8BB174;
+  border-color: #8BB174;
+}
+
+
+/* provisao */
+.table {
+  width: 80%; /* Reduzindo a largura da tabela */
+  margin: 0 auto; /* Centralizando a tabela */
+  border-collapse: collapse; /* Para evitar bordas duplicadas */
+}
+
+.table td,
+.table th {
+  border-bottom: 1px solid #dee2e6; /* Bordas só na parte inferior */
+}
+
+/* .canto {
+  margin-left: 1200px;
+} */
+
+.fundo{
+background-color: #8BB174;
+border-color: #8BB174;
+}
+
+.entrar{
+color: white;
+}
+.entrar:hover{
+  color: white;
+}
+
+.fundo:hover{
+  background-color: #8BB174;
+  border-color: #8BB174;
+}
+
+
+/* fazer_login */
+.centro_parent{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+
+.centro_child{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+
+}
+
+/* registro */
+.form-text {
+  display: none;
+}

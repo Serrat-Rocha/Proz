@@ -1,0 +1,163 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DarkList</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <link rel="shortcut icon" href="{% static 'img/punky-skull-background.png' %}">
+  <style>
+    body {
+      background-color: #0e0b14;
+      color: #e0b2ff;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+    }
+
+    .darklist-container {
+      padding: 40px;
+    }
+
+    .intro-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .text-content h2 {
+      color: #ff39c0;
+      margin-bottom: 20px;
+    }
+
+    .text-content p {
+      margin-bottom: 20px;
+    }
+
+    .btn-group a {
+      background-color: #ff39c0;
+      color: #000;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-right: 10px;
+      transition: 0.3s;
+    }
+
+    .btn-group a:hover {
+      background-color: #e0b2ff;
+    }
+
+    .image-content img {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+
+    .features-section h3 {
+      color: #ff39c0;
+      text-align: center;
+    }
+
+    .anarchy-section {
+      position: relative;
+      margin-top: 40px;
+    }
+
+    .anarchy-section .overlay {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .anarchy-image img {
+      max-width: 100%;
+    }
+
+    .anarchy-text h2 {
+      color: #ff39c0;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 50px;
+    }
+
+    .logo + span {
+      position: absolute;
+      top: 30px;
+      left: 80px;
+      color: #ff39c0;
+      font-size: 24px;
+    }
+
+    .caracteristicas{
+      margin-left: 100px;
+    }
+    .manifesto{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <img class="logo" src="{% static 'img/punky-skull-background.png' %}" alt="Logo">
+    <span>Darklist</span>
+  </div>
+  <div class="darklist-container container">
+    <div class="intro-section">
+      <div class="text-content">
+        <h2>Bem-Vindo a <span class="highlight">DarkList</span></h2>
+        <p>Ajude os cidadãos de OFFgrid com o gerenciamento de recursos essenciais para a comunidade</p>
+        <div class="btn-group">
+          <a href="{% url 'fazer_login' %}" class="btn-enter">Entrar</a>
+          <a href="{% url 'registrar' %}" class="btn-register">Registrar</a>
+        </div>
+      </div>
+      <div class="image-content">
+        <img src="{% static 'img/central.jpg' %}" alt="Hacker" />
+      </div>
+    </div>
+    <div class="features-section">
+      <h3>Gerencie o estoque de OFFgrid</h3>
+      <div class="caracteristicas">
+      <p><img src="{% static 'img/guitar.svg' %}" width="40px" alt=""> Login seguro</p>
+      <p><img src="{% static 'img/guitar.svg' %}" width="40px" alt="">Sem roubo de dados não propositais</p>
+      <p><img src="{% static 'img/guitar.svg' %}" width="40px" alt="">Fácil de usar</p>
+      <div class="manifesto">
+          <h1>Manifesto de OFFgrid: A Rebelião da Autossuficiência</h1>
+          <p>Em OFFgrid, uma cidade anarquista do futuro, rejeitamos o controle do Estado e do capital. Vivemos de forma autossuficiente, sem dependência de grandes corporações, com energia solar, água coletada da chuva e alimentos cultivados por nós. Não há líderes ou hierarquia, somos todos iguais e livres.
+
+            A tecnologia é nossa aliada, usada para conectar e fortalecer a comunidade, sem vigilância ou controle. A cultura é rebelde e punk, com arte, música e atitudes que desafiam o sistema. A solidariedade é a base de nossa convivência, e a terra é compartilhada por todos.
+            
+            Em OFFgrid, não esperamos por um futuro melhor, nós o construímos agora. A anarquia é nossa forma de viver e de resistir.
+            
+            Viva a liberdade, viva OFFgrid!</p>
+
+      </div>
+    </div>
+
+    </div>
+    <div class="anarchy-section">
+      <div class="overlay d-flex">
+        <div class="anarchy-image">
+          <img src="{% static 'img/32917.svg' %}" width="900px" alt="Hacker grande">
+        </div>
+        <div class="anarchy-text">
+          <h2>ENCONTRE ORGANIZAÇÃO NA ANARQUIA</h2>
+          <div class="btn-group">
+            <a href="{% url 'fazer_login' %}" class="btn-enter">Entrar</a>
+            <a href="{% url 'registrar' %}" class="btn-register">Registrar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
